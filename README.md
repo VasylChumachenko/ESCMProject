@@ -31,39 +31,38 @@ r = predictor.get_result(print_result=True)
 
 ```
 
-# Predict and show results
+## Predict and show results
 
 The predict() function evaluates the top-n (default n = 3) class probabilities and top-n class values for each loaded sound file:
 
 ```
 predictor.predict()
-```
 predictor.get_result(print_result=True)
 ```
 
 Out:
 ```
-'------------------------------'
-File mis2023_s4 is missle
-'------------------------------'
-File mis2023_s1 is missle
-'------------------------------'
-File mis2023_s8 is missle
-'------------------------------'
-File hel2023_s1 is children_playing
-'------------------------------'
-File mis2023_s7 is missle
-'------------------------------'
-File mis2023_s2 is helicopter
-'------------------------------'
-File mis2023_s6 is missle
-'------------------------------'
-File mis2023_s5 is missle
+'------------------------------' \
+File mis2023_s4 is missle\
+'------------------------------' \
+File mis2023_s1 is missle\
+'------------------------------'\
+File mis2023_s8 is missle\
+'------------------------------'\
+File hel2023_s1 is children_playing\
+'------------------------------'\
+File mis2023_s7 is missle\
+'------------------------------'\
+File mis2023_s2 is helicopter\
+'------------------------------'\
+File mis2023_s6 is missle\
+'------------------------------'\
+File mis2023_s5 is missle\
 
 ```
 
 Additionally, you can use .result field of SoundPredictor to get access to predicted segment values.  
 
-# Important notes
+## Important notes
 
 Please use short (< 5 s) .wav file as inputs. 5-fold mean accuracy and f1 score were 0.92 and 0.91 respectively.
