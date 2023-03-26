@@ -201,7 +201,7 @@ class SoundPredictor:
                 'shahed',
                 'siren',
                 'street_music',
-                'vroom',
+                'vroom'
             ]
         elif self.mode == 'binary':
             self.class_names = ['danger', 'safe']
