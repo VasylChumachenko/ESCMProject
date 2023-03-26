@@ -1,8 +1,7 @@
 # AlertSounds
 
 ## Motivation
-
-Environmental sound classification can potentially __help defense infrastructure detect dangerous flying targets in addition to conventional detection methods__. This project aims to build a proof of concept sound classifier that can distinguish typical urban environmental sounds from similarly sounding air targets.
+This project aims to build a proof of concept sound classifier that can distinguish typical urban environmental sounds from similarly sounding targets.
 
 ## Dependencies
 
@@ -49,21 +48,21 @@ predictor.get_result(print_result=True)
 Out:
 ```
 '------------------------------' \
-File mis2023_s4 is missle\
+File mis2023_s4 is piuuu\
 '------------------------------' \
-File mis2023_s1 is missle\
+File mis2023_s1 is piuuu\
 '------------------------------'\
-File mis2023_s8 is missle\
+File mis2023_s8 is piuuu\
 '------------------------------'\
 File hel2023_s1 is children_playing\
 '------------------------------'\
-File mis2023_s7 is missle\
+File mis2023_s7 is piuuu\
 '------------------------------'\
-File mis2023_s2 is helicopter\
+File mis2023_s2 is dyrdyrdyr\
 '------------------------------'\
-File mis2023_s6 is missle\
+File mis2023_s6 is piuuu\
 '------------------------------'\
-File mis2023_s5 is missle\
+File mis2023_s5 is piuuu\
 
 ```
 
