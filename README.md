@@ -15,12 +15,6 @@ The custom attention CNN can be downloaded from the following link:
 
 https://drive.google.com/file/d/1gjdaXr-stnMYKLnFm-CL6kP44Yutz22-/view?usp=sharing
 
-## Test sounds
-
-Test sound files can be downloaded here:
-
-https://drive.google.com/file/d/1Lpod0tpz3AEg_XhklSPUJu9KgT4amiiP/view?usp=share_link
-
 ## SoundPredictor
 
 The SoundPredictor takes two string or Path arguments as paths to the sound file/directory and to the NN .zip model file, respectively:
@@ -58,7 +52,7 @@ File hel2023_s1 is children_playing\
 '------------------------------'\
 File mis2023_s7 is piuuu\
 '------------------------------'\
-File mis2023_s2 is dyrdyrdyr\
+File mis2023_s2 is dyrdyrdyr_1\
 '------------------------------'\
 File mis2023_s6 is piuuu\
 '------------------------------'\
