@@ -64,4 +64,4 @@ Additionally, you can use .result field of SoundPredictor to get access to predi
 
 ## Important notes
 
-Please use short (< 5 s) .wav file as inputs. 5-fold mean accuracy and f1 score were 0.92 and 0.91 respectively.
+Please use short (< 5 s) .wav file as inputs.
